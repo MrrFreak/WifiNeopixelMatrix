@@ -71,6 +71,7 @@ int tmpval = 0;
 double x_cursor = 0.0;
 double y_cursor = 0.0;
 double r_cursor = 0.0;
+double phi_glb;
 int dimm_hell;
 //Buildin LED Einstellungen
 int aktiv = LOW;
@@ -234,6 +235,9 @@ void switch_mode(){
       break;
     case 4:
       Show_PulsatingCircle();
+      break;
+    case 5:
+      Show_Cock();
       break;
     default:
       pixels_S1.clear();

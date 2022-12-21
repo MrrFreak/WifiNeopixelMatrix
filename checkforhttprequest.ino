@@ -260,7 +260,8 @@ void checkforhttprequest(){
   client.println("Click <a href=\"/LED=MODE01\">here</a> HUE Farbe<br>");
   client.println("Click <a href=\"/LED=MODE02\">here</a> Rainbow Run<br>");
   client.println("Click <a href=\"/LED=MODE03\">here</a> Moving Dot<br>");
-  client.println("Click <a href=\"/LED=MODE04\">here</a> Moving Dot<br>");
+  client.println("Click <a href=\"/LED=MODE04\">here</a> Pulsating Circle<br>");
+  client.println("Click <a href=\"/LED=MODE05\">here</a> Rotating Cock<br>");
   client.println("</html>");
   
   delay(1);
